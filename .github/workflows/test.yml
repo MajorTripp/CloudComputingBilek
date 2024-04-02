@@ -26,5 +26,6 @@ jobs:
 
       - name: Run Python Script
         run: |
-        cd week9
-        bash update_restart.sh
+          cd week9
+          bash update_restart.sh
+        
