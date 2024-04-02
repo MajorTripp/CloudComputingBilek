@@ -23,5 +23,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: List Files
+      run: ls -l
+      
     - name: Print Message
       run: echo "Hello, Jerad!"
